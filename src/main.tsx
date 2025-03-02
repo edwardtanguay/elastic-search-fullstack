@@ -6,6 +6,7 @@ import { PageWelcome } from "./pages/PageWelcome.tsx";
 import { PageInfo } from "./pages/PageInfo.tsx";
 import { PageAbout } from "./pages/PageAbout.tsx";
 import { Page404 } from "./pages/Page404.tsx";
+import { PageSearch } from "./pages/PageSearch.tsx";
 import { StoreProvider } from 'easy-peasy';
 import { store } from './store/store.ts';
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
 			{
 				path: "about",
 				element: <PageAbout />,
+			},
+			{
+				path: "search",
+				element: <PageSearch />,
 			},
 			{
 				path: "/",
