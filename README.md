@@ -42,3 +42,12 @@ In the frontend, easy-peasy Redux is used for straight-forward state management,
 
 - frontend: 3200
 - backend: 3300
+
+## .env
+
+```
+ELASTIC_URL=https://4.33.237.23
+ELASTIC_PORT=9200
+ELASTIC_USERNAME=elastic
+ELASTIC_PASSWORD=slkdjfsdkfjsdlfkjsdfk
+```
